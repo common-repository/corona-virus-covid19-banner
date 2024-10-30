@@ -1,0 +1,156 @@
+.covid-banner {
+	outline: none;
+	position: fixed;
+	top: auto;
+	left: auto;
+	right: 0px;
+	bottom: 100px;
+	margin: 16px;
+	z-index: 2202;
+	box-sizing: border-box;
+	max-height: 192px;
+	max-width: 863px;
+
+	font-family: "Roboto", "Noto", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+		0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.covid-group {
+	display: flex;
+	flex-direction: row;
+	max-width: 648px;
+}
+
+.covid-img {
+	max-height: 115px;
+	opacity: 1;
+	display: inline-block;
+	flex: none;
+}
+
+.covid-img .coat {
+	padding: 10px;
+	display: block;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 115px;
+	max-width: 100%;
+	border-radius: none;
+}
+
+.covid-body {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.covid-header {
+	display: block;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 2rem;
+	margin: 10px 0 0 0;
+	padding: 0 10px;
+}
+
+.covid-text {
+	margin: 0px;
+	padding: 0 10px;
+	padding-right: 24px;
+	-ms-flex: 1 1 1e-9px;
+	-webkit-flex: 1;
+	flex: 1;
+	-webkit-flex-basis: 1e-9px;
+	flex-basis: 1e-9px;
+	font-size: 0.8rem;
+	font-weight: 400;
+	line-height: 1.5rem;
+}
+
+.covid-link {
+	margin: 0px;
+	padding: 0 10px;
+	padding-right: 24px;
+	padding-bottom: 5px;
+	-ms-flex: 1 1 1e-9px;
+	-webkit-flex: 1;
+	flex: 1;
+	-webkit-flex-basis: 1e-9px;
+	flex-basis: 1e-9px;
+	font-size: 0.8rem;
+	font-weight: 400;
+	line-height: 1rem;
+	text-decoration: none !important;
+}
+
+.covid-footer {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-direction: row;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-pack: end;
+	-webkit-justify-content: flex-end;
+	justify-content: flex-end;
+	padding: 2px;
+	padding: 2px;
+	padding-right: 8px;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	font-size: 9px;
+}
+
+.covid-footer a {
+	text-transform: uppercase;
+	background-color: #ffffff;
+	text-decoration: none;
+	font-size: 12px;
+	padding: 5px;
+	border: 0;
+}
+
+.row-covid-banner {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.column-covid-bannerr {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+}
+
+.covid-close-div {
+    display: inline-flex;
+    width: 24px;
+    height: 24px;
+}
+
+.covid-close-button {
+	vertical-align: middle;
+	color: inherit;
+	outline: none;
+	background: none;
+    margin-top: 4px;
+    margin-left: 4px;
+	border: none;
+	padding: 8px;
+	width: 40px;
+	height: 40px;
+	line-height: 0;
+	cursor: pointer;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: transparent;
+}
+
+.covid-share a {
+    text-decoration: none;
+}
